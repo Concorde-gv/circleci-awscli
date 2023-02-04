@@ -19,4 +19,4 @@ RUN sudo apt-get update && \
     sudo rm -rf /var/lib/apt/lists/*
 
 RUN sudo npm install -g serverless@3.27.0
-RUN sudo pip install awscliv2==2.2.0
+RUN sudo pip install awscli==1.27.64
